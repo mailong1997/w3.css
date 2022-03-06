@@ -1,0 +1,131 @@
+/*Reset css*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*
+1. Từ ngoài vào trong
+2. Từ trên xuống dưới
+3. Tổng quan đến chi tiết
+*/
+
+/*
+1. Vị trí 
+2. Kích thước(width, height)
+3. Màu sắc 
+4. Kiểu dáng (kiểu chữ, hình tròn, vuông,...)
+*/
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+
+}
+
+#header{
+    height: 46.5px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+#nav{
+    display: inline-block;
+}
+
+#nav ul, #nav .subnav{
+    list-style: none;
+}
+
+#nav > li {
+    display: inline-block;
+}
+
+#nav li{
+    
+    position: relative;
+}
+
+#nav > li > a{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#nav li a{
+    
+    text-decoration: none;
+    line-height: 46.5px;
+    padding: 0 24px;
+    display: block;
+   
+}
+#nav li:hover .subnav{
+    display: block;
+}
+
+#nav .subnav li:hover a,
+#nav > li:hover > a{
+    background-color: #ccc;
+    
+}
+
+#nav .nav-grow-down{
+    font-size: 13px;
+}
+
+#nav .subnav{
+
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background-color: #fff;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#nav .subnav a{
+    color: black;
+    line-height: 38px;
+    padding: 0 12px;
+}
+
+
+#header .search-btn{
+    float: right;
+    display: block;
+    padding: 0 16px;
+    cursor: pointer;
+}
+
+#header .search-icon{
+    color: #fff;
+    line-height: 46px;
+    font-size: 20px;
+    
+}
+
+#header .search-btn:hover{
+    background-color: red;
+} 
+#slider {
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url('/assets/img/slider/ny.jpg') top center / cover no-repeat;
+    
+}
+
+text-content
+text-heading
+text-description
+
+#content{
+  
+}
+
+#footer{
+
+}
